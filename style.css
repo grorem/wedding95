@@ -1,0 +1,224 @@
+body {
+  background: #008580;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color:#000;
+}
+
+.btn {
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid #000;
+  border-right: 3px solid #000;
+}
+
+.start-bar {
+  z-index: 2;
+  border-top: 3px solid #fff;
+  padding: 4px;
+  background: #bfbfbf;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  font-smooth: none;
+  -webkit-font-smoothing: none;
+  box-sizing: border-box;
+}
+.start-btn {
+  height: 40px;
+  position: relative;
+  padding: 2px 5px;
+  font-size: 20px;
+  box-sizing: border-box;
+  float: left;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  width: 100px;
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid #000;
+  border-right: 3px solid #000;
+}
+.start-btn img {
+  height: 28px;
+}
+
+
+.start-btn:hover {
+  cursor: pointer;
+}
+
+
+.start-text {
+  position: absolute;
+  right: 8px;
+  bottom: 5px;
+}
+.time-display {
+  float: right;
+  text-align: center;
+  width: 180px;
+  padding: 7px 0;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  border-top: 3px solid #92928d;
+  border-left: 3px solid #92928d;
+}
+.upper-bar {
+  background: #000082;
+  height: 30px;
+}
+.welcome {
+  color: #fff;
+  font-weight: 700;
+  width: 700px;
+  height: 500px;
+  background: #bfbfbf;
+  float: left;
+}
+.close {
+  padding: 0px 5px;
+  color: #000;
+  font-weight: 700;
+  background: #bfbfbf;
+  float: right;
+  margin: 1px;
+}
+.window-name {
+  line-height: 30px;
+  padding-left: 5px;
+}
+.welcome-message {
+  display: inline-block;
+  font-size: 38px;
+  margin: 20px 10px 20px 28px;
+  font-family: 'Times new roman', serif;
+  font-weight: 800;
+  color: #000;
+}
+.win {
+  font-family: 'Arial', sans-serif;
+}
+.ninetyfive {
+  font-weight: 500;
+  color: #fff;
+}
+
+
+
+.did-you-know-wrapper {
+  position: relative;
+  margin-top: 15px;
+  width: 500px;
+  height: 345px;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  border-top: 3px solid #92928d;
+  border-left: 3px solid #92928d;
+}
+.did-you-know {
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  width: 300px;
+}
+.dy-header {
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+.my-computer {
+  margin: 10px;
+  width: 100px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.my-computer-txt {
+  margin-top: 5px;
+}
+.my-computer img {
+  width: 60px;
+  display: inline;
+}
+
+.my-computer:hover {
+  cursor:pointer;
+  opacity:.7;
+}
+
+
+
+
+.popup-window {
+  z-index: 1;
+  position: fixed;
+  top: 5%;
+  left: 20%;
+}
+
+.popup-window a{
+  text-decoration: underline;
+  color:blue;
+}
+
+
+
+
+.modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+.modal-window:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-window > div {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 2em;
+  background: #ffffff;
+}
+.modal-window header {
+  font-weight: bold;
+}
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+.modal-close:hover {
+  color: black;
+}
